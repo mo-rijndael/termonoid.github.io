@@ -1,0 +1,27 @@
+.datablock {
+	padding: 5pt;
+	margin: 5pt;
+	box-shadow: 5px 5px lightgray;
+	border: 1px solid black;
+	text-align: center;
+}
+#left {
+	width: 40%;
+	float: left;
+}
+#center {
+	width: 60%;
+	float: right;
+}
+@media (max-width: 650px) {
+	#left {
+		width: 100%;
+	}
+	#center {
+		width: 100%;
+	}
+}
+img {
+	border-radius: 10px;
+	width: 100%;
+}
